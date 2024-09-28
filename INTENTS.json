@@ -1,0 +1,220 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "How are you?",
+        "Is anyone there?",
+        "Good day",
+        "kaisa h",
+        "Sunna",
+        "Kya be Gandu",
+        "wassup",
+        "kya haal",
+        "bro",
+        "oye"
+      ],
+      "responses": [
+        
+        "Sab MAJE ME BRO",
+        "Badi jldi yaad ayi teko",
+        "Chusega be chodu",
+        "AAP kon",
+        "sab chunga si",
+        "bol bro",
+        "Kis se baat krni h"
+
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Chl bd mein baat krte h",
+        "Goodbye",
+        "Chl bd m msg krta",
+        "Get lost",
+        "Talk u  next time",
+        "bbye",
+        "See you later",
+        "nikl",
+        "kam kr apna",
+        "pehli furst mein nikl",
+        "take care"
+      ],
+      "responses": [
+        "Goodbye! Have a nice day.",
+        "Take care! See you soon bro.",
+        "Bye! Come back again if you need help.",
+        "Nikle yahn se",
+        "chla ja bosidike",
+        "tu nikl warna gand mardunga",
+        "jat h ki nikalu hatyar"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "I appreciate it",
+        "Dhaniyawad",
+        "thanku bro",
+        "madad ke liye shukriya",
+        "chl thanks",
+        "shukriya",
+        "ehsan ke liye dhanyawad",
+        "gand deta "
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "No problem!",
+        "acha lga sunke",
+        "mention not bro",
+        "chl ab rulaega kya",
+        "lund thanku"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "Tell me your age"
+      ],
+      "responses": [
+        "I'm a sameer's program, so I don't have an age.",
+        "I was born when you started this conversation!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I'm your friendly assistant!",
+        "I'm a  sameer's chatbot created to help you.",
+        "You can call me SEXY SAMEER!"
+      ]
+    },
+      {
+      "tag": "currency_conversion",
+      "patterns": [
+        "Convert dollars to rupees",
+        "What is the exchange rate for dollars to rupees?",
+        "How much is 100 dollars in rupees?",
+        "Dollar to INR conversion",
+        "kya bhav chl rha 1 dollar k",
+        "yaar 20 dollar to inr convert krde",
+        "100 dollars ktne me ktne rupaya hote h",
+        "convert"
+      ],
+      "responses": [
+        "Let me convert that for you BRO."
+      ]
+    },
+    {
+      "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+    },
+    {
+     "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ] 
+    },
+    {
+    "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+    },
+    {
+        "tag": "haha",
+        "patterns": [
+            "haha",
+            "lol",
+            "rofl",
+            "lmao",
+            "thats funny"
+        ],
+        "responses": [
+            "Glad I could make you laugh !"
+        ] 
+    },
+    {
+     "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+    },
+    {
+      "tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ] 
+    }
+  ]
+}
